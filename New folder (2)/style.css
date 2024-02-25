@@ -1,0 +1,344 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+    .first {
+      flex-wrap: wrap;
+    }
+  }
+    
+.nav {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+div a {
+  text-decoration: none;
+  color: black;
+}
+.nav1 {
+  margin: 10px 10px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+}
+.nav2 {
+  margin: 10px 10px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn:hover {
+  background-color: rgb(126, 136, 136);
+  color: white;
+}
+.main {
+  background-image: url(Assets/architect.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 1300px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+}
+.main2 h2 {
+  margin-top: 30px;
+  padding-left: 20px;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.houses-1 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.house-name1 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-1 {
+  background-image: url(Assets/house2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  height: 35vh;
+  width: 25vw;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.house-name2 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-2 {
+    background-image: url(Assets/house3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.house-name3 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-3 {
+    background-image: url(Assets/house4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.house-name4 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-4 {
+    background-image: url(Assets/house5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.houses-2 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.house-name5 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-5 {
+    background-image: url(Assets/house5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.house-name6 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-6 {
+    background-image: url(Assets/house4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.house-name7 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-7 {
+    background-image: url(Assets/house3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.house-name8 {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 55%;
+    height: 40px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-8 {
+    background-image: url(Assets/house2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 35vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main3 h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 50px;
+   margin: 20px;
+}
+.main3 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+.main4 h2{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 55px;
+}
+.main4 h4{
+    margin-left: 100px;
+}
+.img-1{
+    width: 350px;
+    padding: 10px;
+    margin: 10px 20px;
+    
+}
+.btn-1{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(228, 240, 243);
+    cursor: pointer;
+}
+.main5 h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin: 20px; 
+    margin-top: 60px;  
+}
+.main5 p{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+.main5 input{
+    width: 1150px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 250px;
+    border: 3px solid black;
+    color: rgb(7, 10, 5);
+}
+.main5 .btn-2{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 50px;
+    margin-left :250px ;
+    font-size: 20px;    
+}
+.btn-2:hover {
+    background-color: rgb(133, 127, 127);
+    color:black ;
+  }
+#image-1{
+    width: 1150px;
+    margin-left: 250px;
+    padding: 10px 0px ;
+}
+footer{
+    font-size: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-left: 200px; */
+       
+}
+.footer-1{
+    background-color: black;
+    color: white;
+    width: 1620px;
+    height: 60px;
+    text-align: center;
+    margin-top: 5px;
+}
